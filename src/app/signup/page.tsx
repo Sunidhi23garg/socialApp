@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import axios from 'axios';
+import axios, { AxiosError } from 'axios';
 import Link from 'next/link';
 
 export default function SignupPage() {
@@ -19,8 +19,14 @@ export default function SignupPage() {
     try {
       await axios.post('/api/signup', form);
       router.push('/login');
-    } catch (err: any) {
-      setError(err.response?.data?.error || 'Something went wrong');
+    } catch (err: unknown) {
+      if (err instanceof AxiosError) {
+        setError(err.response?.data?.error || 'Something went wrong');
+      } else if (err instanceof Error) {
+        setError(err.message);
+      } else {
+        setError('Something went wrong');
+      }
     }
   };
 

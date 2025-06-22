@@ -10,7 +10,7 @@ export default function HomePage() {
     <div className="min-h-screen bg-[#121212] text-gray-200 p-6 flex flex-col items-center justify-center text-center">
       <h1 className="text-5xl font-bold text-pink-500 mb-4">🚀 Welcome to Buzzgram</h1>
       <p className="text-lg text-gray-300 max-w-xl mb-8">
-        Buzzgram is your digital space to express yourself. Share posts, connect with people, and stay inspired. Whether it's a thought, a photo, or a moment — buzz it!
+        Buzzgram is your digital space to express yourself. Share posts, connect with people, and stay inspired. Whether it&apos;s a thought, a photo, or a moment — buzz it!
       </p>
 
       {session ? (

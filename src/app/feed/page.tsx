@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 interface PostType {
   _id: string;
@@ -71,9 +72,11 @@ export default function FeedPage() {
             className="bg-[#1e1e1e] p-5 rounded-2xl shadow-lg border border-[#2a2a2a] transition hover:border-pink-600"
           >
             <div className="flex items-center gap-4 mb-4">
-              <img
+              <Image
                 src={post.user?.image || '/avatar.png'}
                 alt={post.user?.name || 'User'}
+                width={40}
+                height={40}
                 className="w-10 h-10 rounded-full border border-gray-500 object-cover"
               />
               <div>
@@ -87,9 +90,11 @@ export default function FeedPage() {
             <p className="text-lg text-gray-100 mb-3 whitespace-pre-line">{post.content}</p>
 
             {post.image && (
-              <img
+              <Image
                 src={post.image}
-                alt="Post"
+                alt="Post content"
+                width={600}
+                height={400}
                 className="rounded-lg mb-3 max-h-96 w-full object-cover border border-gray-600"
               />
             )}

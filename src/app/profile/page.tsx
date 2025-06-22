@@ -3,6 +3,7 @@
 import { useSession } from 'next-auth/react';
 import { useEffect, useState } from 'react';
 import ImageUpload from '@/components/UploadButton';
+import Image from 'next/image';
 
 export default function ProfilePage() {
   const { data: session } = useSession();
@@ -52,9 +53,11 @@ export default function ProfilePage() {
       <h2 className="text-3xl font-bold text-center mb-6">🧑‍💼 My Profile</h2>
 
       <div className="text-center mb-5">
-        <img
+        <Image
           src={profile.image || avatarFallback}
           alt="Profile"
+          width={96}
+          height={96}
           className="w-24 h-24 mx-auto rounded-full border border-gray-500 object-cover bg-white"
         />
       </div>
