@@ -8,16 +8,15 @@
 
 ## 📸 Screenshots
 
-> ![Dashboard]![image](https://github.com/user-attachments/assets/f5d828f6-5467-42ed-815f-7662757949c9)
+![Dashboard]![image](https://github.com/user-attachments/assets/f5d828f6-5467-42ed-815f-7662757949c9)
 
 ![Login Page]![image](https://github.com/user-attachments/assets/3269405f-e3bb-4019-a1ef-c0d7c7b4b8da)
 
-> ![Global Feed]
+![Global Feed]![image](https://github.com/user-attachments/assets/b2f10cad-9693-46f4-971f-59acffa99293)
 
-> ![Profile]
+![Profile]![image](https://github.com/user-attachments/assets/fe45b784-7a27-4ba7-9af7-44f949a9e013)
 
-> ![Create Post]![image](https://github.com/user-attachments/assets/13aa7c69-0510-424f-9c59-ced681f9ba39)
-
+![Create Post]![image](https://github.com/user-attachments/assets/be30df90-8693-4200-94d4-03efe33953f1)
 
 ---
 
