@@ -8,31 +8,39 @@
 
 ## 📸 Screenshots
 
-> ![Dashboard] [image](https://github.com/user-attachments/assets/f5d828f6-5467-42ed-815f-7662757949c9)
+> ![Dashboard]![image](https://github.com/user-attachments/assets/f5d828f6-5467-42ed-815f-7662757949c9)
 
-> ![Login](https://via.placeholder.com/800x400?text=Login+Page)
-> ![Global Feed](https://via.placeholder.com/800x400?text=Post+Feed)
-> ![Profile](https://via.placeholder.com/800x400?text=Profile+Management)
-> ![Create Post](https://via.placeholder.com/800x400?text=Create+Post+Page)
+> ![Login]![image](https://github.com/user-attachments/assets/c30e1991-87e3-423e-ba26-7b0b7321ecf7)
+
+> ![Global Feed]![image](https://github.com/user-attachments/assets/1b516171-e87d-4684-84ec-c69710843825)
+
+> ![Profile]![image](https://github.com/user-attachments/assets/2ec30cb2-87eb-41b2-be47-27b8a8182f51)
+
+> ![Create Post]![image](https://github.com/user-attachments/assets/13aa7c69-0510-424f-9c59-ced681f9ba39)
+
 
 ---
 
 ## 🚀 Features
 
 ✅ **Authentication**
-- Sign up and log in with Google or Email/Password
+- Sign up and log in
 - Secure authentication with NextAuth.js
 
 ✅ **Post Functionality**
 - Create posts with optional image URLs or uploads
 - Image optimization using `next/image` and UploadThing
-- Like posts instantly (like counter updates)
+- Like posts instantly 
 - Posts show profile image and timestamp
 
 ✅ **Profile Management**
 - Update name, bio, and profile picture
 - Avatar fallback using Dicebear
+ ![image](https://github.com/user-attachments/assets/ff740562-874d-4f17-a8f3-59d5e0d9dafb)
+
 - Instant changes reflected in global feed
+  ![image](https://github.com/user-attachments/assets/0406198a-6d96-420f-97f3-6fb000da1409)
+
 
 ✅ **Feed**
 - View all posts by all users
@@ -45,7 +53,6 @@
 
 ✅ **Tech & UI**
 - Fully responsive layout
-- Tailwind CSS dark mode support
 - Recharts integration ready (for future analytics)
 
 ✅ **Deployment**
@@ -73,3 +80,32 @@
    ```bash
    git clone https://github.com/Sunidhi23garg/socialApp.git
    cd socialApp
+   
+2. **Install dependencies**
+   ```bash
+   npm install
+   
+3. **Set up environment variables**
+
+Create a .env.local file and add:
+.env
+MONGODB_URI=your_mongodb_uri
+NEXTAUTH_SECRET=your_auth_secret
+NEXTAUTH_URL=http://localhost:3000
+UPLOADTHING_SECRET=your_uploadthing_secret
+UPLOADTHING_APP_ID=your_uploadthing_app_id
+UPLOADTHING_TOKEN=your_uploadthing_token
+
+4. **Run the app**
+   ```bash
+   npm run dev
+   Visit http://localhost:3000
+
+🧪 **Known Issues or Limitations**
+- Only supports image URLs from allowed domains (e.g. utfs.io, api.dicebear.com, Unsplash, etc.)
+- file.url was deprecated in UploadThing — now using file.ufsUrl
+- No post delete/edit functionality (can be added)
+
+👩‍💻 **Author**
+Sunidhi Garg
+GitHub: @Sunidhi23garg
