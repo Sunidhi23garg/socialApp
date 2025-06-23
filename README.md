@@ -60,9 +60,9 @@
 
 | Category           | Tools/Tech                                      |
 |-------------------|--------------------------------------------------|
-| Frontend          | Next.js 14 (App Router), TypeScript, Tailwind CSS |
+| Frontend          | Next.js (App Router), TypeScript, Tailwind CSS |
 | Backend/API       | Route Handlers in `app/api`, MongoDB + Mongoose |
-| Auth              | NextAuth.js (Google, Credentials)               |
+| Auth              | NextAuth.js             |
 | File Upload       | UploadThing                                     |
 | Database          | MongoDB Atlas                                   |
 | Deployment        | Vercel                                          |
