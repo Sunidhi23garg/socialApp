@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Buzzgram - Modern Full-Stack Social Media Platform
 
-## Getting Started
+**Buzzgram** is a fully functional, full-stack social media application built with **Next.js 14**, **MongoDB**, **UploadThing**, and **NextAuth.js**. It allows users to register, log in, create posts with images, like posts, and manage their profiles with a real-time and responsive UI.
 
-First, run the development server:
+🔗 **Live Site:** [https://social-app-eight-ebon.vercel.app](https://social-app-eight-ebon.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 Screenshots
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+> ![Dashboard]![image](https://github.com/user-attachments/assets/f5d828f6-5467-42ed-815f-7662757949c9)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+> ![Login](https://via.placeholder.com/800x400?text=Login+Page)
+> ![Global Feed](https://via.placeholder.com/800x400?text=Post+Feed)
+> ![Profile](https://via.placeholder.com/800x400?text=Profile+Management)
+> ![Create Post](https://via.placeholder.com/800x400?text=Create+Post+Page)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✅ **Authentication**
+- Sign up and log in with Google or Email/Password
+- Secure authentication with NextAuth.js
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+✅ **Post Functionality**
+- Create posts with optional image URLs or uploads
+- Image optimization using `next/image` and UploadThing
+- Like posts instantly (like counter updates)
+- Posts show profile image and timestamp
 
-## Deploy on Vercel
+✅ **Profile Management**
+- Update name, bio, and profile picture
+- Avatar fallback using Dicebear
+- Instant changes reflected in global feed
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+✅ **Feed**
+- View all posts by all users
+- Responsive, scrollable card layout
+- Like system integrated with database
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+✅ **File Upload**
+- UploadThing integration for uploading profile pictures and post images
+- Supports CDN links and previews
+
+✅ **Tech & UI**
+- Fully responsive layout
+- Tailwind CSS dark mode support
+- Recharts integration ready (for future analytics)
+
+✅ **Deployment**
+- Hosted on Vercel with MongoDB Atlas as cloud database
+
+---
+
+## 🛠️ Tech Stack
+
+| Category           | Tools/Tech                                      |
+|-------------------|--------------------------------------------------|
+| Frontend          | Next.js 14 (App Router), TypeScript, Tailwind CSS |
+| Backend/API       | Route Handlers in `app/api`, MongoDB + Mongoose |
+| Auth              | NextAuth.js (Google, Credentials)               |
+| File Upload       | UploadThing                                     |
+| Database          | MongoDB Atlas                                   |
+| Deployment        | Vercel                                          |
+| Avatar Generator  | Dicebear                                        |
+
+---
+
+## 🧰 Project Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Sunidhi23garg/socialApp.git
+   cd socialApp
