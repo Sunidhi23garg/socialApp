@@ -1,4 +1,4 @@
-# 🌐 Buzzgram - Modern Full-Stack Social Media Platform
+# Buzzgram - Modern Full-Stack Social Media Platform
 
 **Buzzgram** is a fully functional, full-stack social media application built with **Next.js 14**, **MongoDB**, **UploadThing**, and **NextAuth.js**. It allows users to register, log in, create posts with images, like posts, and manage their profiles with a real-time and responsive UI.
 
@@ -12,9 +12,9 @@
 
 > ![Login]![image](https://github.com/user-attachments/assets/c30e1991-87e3-423e-ba26-7b0b7321ecf7)
 
-> ![Global Feed]![image](https://github.com/user-attachments/assets/1b516171-e87d-4684-84ec-c69710843825)
+> ![Global Feed]
 
-> ![Profile]![image](https://github.com/user-attachments/assets/2ec30cb2-87eb-41b2-be47-27b8a8182f51)
+> ![Profile]
 
 > ![Create Post]![image](https://github.com/user-attachments/assets/13aa7c69-0510-424f-9c59-ced681f9ba39)
 
@@ -23,39 +23,36 @@
 
 ## 🚀 Features
 
-✅ **Authentication**
+**Authentication**
 - Sign up and log in
 - Secure authentication with NextAuth.js
 
-✅ **Post Functionality**
+**Post Functionality**
 - Create posts with optional image URLs or uploads
 - Image optimization using `next/image` and UploadThing
 - Like posts instantly 
 - Posts show profile image and timestamp
 
-✅ **Profile Management**
+**Profile Management**
 - Update name, bio, and profile picture
 - Avatar fallback using Dicebear
- ![image](https://github.com/user-attachments/assets/ff740562-874d-4f17-a8f3-59d5e0d9dafb)
 
 - Instant changes reflected in global feed
-  ![image](https://github.com/user-attachments/assets/0406198a-6d96-420f-97f3-6fb000da1409)
 
-
-✅ **Feed**
+**Feed**
 - View all posts by all users
 - Responsive, scrollable card layout
 - Like system integrated with database
 
-✅ **File Upload**
+**File Upload**
 - UploadThing integration for uploading profile pictures and post images
 - Supports CDN links and previews
 
-✅ **Tech & UI**
+**Tech & UI**
 - Fully responsive layout
 - Recharts integration ready (for future analytics)
 
-✅ **Deployment**
+**Deployment**
 - Hosted on Vercel with MongoDB Atlas as cloud database
 
 ---
