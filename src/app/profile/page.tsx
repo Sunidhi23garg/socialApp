@@ -58,6 +58,7 @@ export default function ProfilePage() {
           alt="Profile"
           width={96}
           height={96}
+          unoptimized
           className="w-24 h-24 mx-auto rounded-full border border-gray-500 object-cover bg-white"
         />
       </div>

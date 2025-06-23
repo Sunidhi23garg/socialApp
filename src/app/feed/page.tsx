@@ -77,6 +77,7 @@ export default function FeedPage() {
                 alt={post.user?.name || 'User'}
                 width={40}
                 height={40}
+                unoptimized
                 className="w-10 h-10 rounded-full border border-gray-500 object-cover"
               />
               <div>
