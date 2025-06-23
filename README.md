@@ -85,12 +85,12 @@
 
 Create a .env.local file and add:
 .env
-MONGODB_URI=your_mongodb_uri  
-NEXTAUTH_SECRET=your_auth_secret  
-NEXTAUTH_URL=http://localhost:3000  
-UPLOADTHING_SECRET=your_uploadthing_secret  
-UPLOADTHING_APP_ID=your_uploadthing_app_id  
-UPLOADTHING_TOKEN=your_uploadthing_token  
+- MONGODB_URI=your_mongodb_uri  
+- NEXTAUTH_SECRET=your_auth_secret  
+- NEXTAUTH_URL=http://localhost:3000  
+- UPLOADTHING_SECRET=your_uploadthing_secret  
+- UPLOADTHING_APP_ID=your_uploadthing_app_id  
+- UPLOADTHING_TOKEN=your_uploadthing_token  
 
 4. **Run the app**
    ```bash
@@ -102,6 +102,7 @@ UPLOADTHING_TOKEN=your_uploadthing_token
 - file.url was deprecated in UploadThing — now using file.ufsUrl
 - No post delete/edit functionality (can be added)
 
-👩‍💻 **Author**
+👩‍💻 **Author**  
 Sunidhi Garg  
-GitHub: @Sunidhi23garg
+GitHub: [@Sunidhi23garg](https://github.com/Sunidhi23garg)
+
