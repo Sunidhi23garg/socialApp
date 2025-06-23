@@ -7,14 +7,16 @@ const nextConfig = {
     domains: [
       'utfs.io',
       'api.dicebear.com',
-      'images.unsplash.com',  // for Unsplash images
-      'i.imgur.com',          // for Imgur images
-      'res.cloudinary.com',   // for Cloudinary
+      'encrypted-tbn0.gstatic.com', // ✅ Add this
+      'images.unsplash.com',
+      'i.imgur.com',
+      'res.cloudinary.com',
     ],
   },
 };
 
 module.exports = nextConfig;
+
 
 
 
