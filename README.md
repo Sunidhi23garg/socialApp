@@ -8,7 +8,7 @@
 
 ## 📸 Screenshots
 
-> ![Dashboard]![image](https://github.com/user-attachments/assets/f5d828f6-5467-42ed-815f-7662757949c9)
+> ![Dashboard] [image](https://github.com/user-attachments/assets/f5d828f6-5467-42ed-815f-7662757949c9)
 
 > ![Login](https://via.placeholder.com/800x400?text=Login+Page)
 > ![Global Feed](https://via.placeholder.com/800x400?text=Post+Feed)
