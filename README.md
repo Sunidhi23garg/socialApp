@@ -10,7 +10,7 @@
 
 > ![Dashboard]![image](https://github.com/user-attachments/assets/f5d828f6-5467-42ed-815f-7662757949c9)
 
-> ![Login]![image](https://github.com/user-attachments/assets/c30e1991-87e3-423e-ba26-7b0b7321ecf7)
+![Login Page]![image](https://github.com/user-attachments/assets/3269405f-e3bb-4019-a1ef-c0d7c7b4b8da)
 
 > ![Global Feed]
 
