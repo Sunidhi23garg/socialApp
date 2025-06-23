@@ -11,8 +11,8 @@ export default function ImageUpload({ onUploadComplete }: Props) {
     <UploadButton<OurFileRouter, "profileImageUploader">
       endpoint="profileImageUploader"
       onClientUploadComplete={(res) => {
-        if (res && res[0]?.url) {
-          onUploadComplete(res[0].url);
+        if (res && res[0]?.ufsUrl) {
+          onUploadComplete(res[0].ufsUrl);
         }
       }}
       onUploadError={(error: Error) => alert(`Upload error: ${error.message}`)}
